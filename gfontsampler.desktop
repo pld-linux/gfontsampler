@@ -3,6 +3,7 @@ Name=Font Sampler
 Comment=View and compare your fonts
 Comment[PL]=Zobacz i porównaj swoje czcionki
 Exec=gfontsampler
+Icon=gfontsampler
 Terminal=false
 Type=Application
 Encoding=UTF-8
