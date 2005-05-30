@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Font Sampler
+Comment=View and compare your fonts
+Comment[PL]=Zobacz i porównaj swoje czcionki
+Exec=gfontsampler
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=GTK;Utility;
+# vi: encoding=utf-8
