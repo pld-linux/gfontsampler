@@ -1,5 +1,5 @@
 Summary:	View and compare your fonts
-Summary(pl):	Zobacz i porównaj swoje czcionki
+Summary(pl):	Narzêdzie do ogl±dania i porównywania fontów
 Name:		gfontsampler
 Version:	0.4
 Release:	1
@@ -15,7 +15,6 @@ BuildRequires:	gettext-devel >= 0.14.3
 BuildRequires:	libgnomeui-devel >= 2.0.0
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
-BuildRequires:	popt-devel
 BuildRequires:	rpmbuild(macros) >= 1.197
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -23,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 View and compare your fonts.
 
 %description -l pl
-Zobacz i porównaj swoje czcionki.
+Narzêdzie do ogl±dania i porównywania fontów.
 
 %prep
 %setup -q
@@ -52,14 +51,14 @@ mv -f $RPM_BUILD_ROOT%{_pixmapsdir}/%{name}/%{name}-icon.png \
 mv -f $RPM_BUILD_ROOT%{_datadir}/gnome/apps/Utilities/* \
 	$RPM_BUILD_ROOT%{_desktopdir}
 
+%clean
+rm -rf $RPM_BUILD_ROOT
+
 %post
 %update_desktop_database_post
 
 %postun
 %update_desktop_database_postun
-
-%clean
-rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
