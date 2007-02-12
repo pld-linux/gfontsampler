@@ -1,5 +1,5 @@
 Summary:	View and compare your fonts
-Summary(pl):	Narz阣zie do ogl眃ania i por體nywania font體
+Summary(pl.UTF-8):   Narz臋dzie do ogl膮dania i por贸wnywania font贸w
 Name:		gfontsampler
 Version:	0.4
 Release:	1
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 View and compare your fonts.
 
-%description -l pl
-Narz阣zie do ogl眃ania i por體nywania font體.
+%description -l pl.UTF-8
+Narz臋dzie do ogl膮dania i por贸wnywania font贸w.
 
 %prep
 %setup -q
