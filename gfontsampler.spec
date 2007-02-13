@@ -1,5 +1,5 @@
 Summary:	View and compare your fonts
-Summary(pl.UTF-8):   Narzędzie do oglądania i porównywania fontów
+Summary(pl.UTF-8):	Narzędzie do oglądania i porównywania fontów
 Name:		gfontsampler
 Version:	0.4
 Release:	1
